@@ -1,0 +1,62 @@
+.toDoList {
+  padding: 14px;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+  color: #fff;
+}
+
+.submit {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgb(127, 93, 194) 0%,
+      rgb(97, 42, 131) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.remove {
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 1px;
+    position: relative;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgb(235, 15, 15) 0%,
+      rgb(139, 8, 36) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.input {
+    padding-left: 5px;
+}
+
+.line {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex; 
+    align-items: center
+}
+
+.counter {
+    margin-left: 13px;
+    font-size: 50px;
+    width: 68px;
+    text-align: center;
+}
