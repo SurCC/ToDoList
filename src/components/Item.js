@@ -13,7 +13,7 @@ class Item extends React.Component {
   handleClick() {
     this.setState((state) => (state.stroke ? { stroke: false } : { stroke: true }));
   }
-
+//bbb
   toggleRemove() {
     return this.props.handleRemove(this.props.index);
   }
